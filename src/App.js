@@ -12,9 +12,10 @@ function App() {
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
 
+
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setFormValues({ ...formValues, [name]: value });
+       setFormValues({ ...formValues, [name]: value }); 
     };
 
     const handleSubmit = (e) => {
@@ -22,6 +23,8 @@ function App() {
         setFormErrors(validate(formValues));
         setIsSubmit(true);
     };
+
+
 
     useEffect(() => {
         console.log(formErrors);
@@ -56,7 +59,7 @@ function App() {
     return (
         <>
             <div className="bgImg"></div>
-            <div className="container">
+            <div className="container"> 
                 {Object.keys(formErrors).length === 0 && isSubmit ? (
                     <div className="ui message success">
                         Signed in successfully
@@ -66,7 +69,7 @@ function App() {
                 )}
 
                 <form onSubmit={handleSubmit}>
-                    <h1>Sign Up</h1>
+                    <h1>Sign Up</h1> 
                     <div className="ui divider"></div>
                     <div className="ui form">
                         <div className="field">

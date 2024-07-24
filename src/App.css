@@ -56,9 +56,13 @@ p {
 .text {
     margin: 2px;
     padding: 5px;
+    font-size: larger;
 }
 
 span{
     color: rgb(0, 95, 236);
     cursor: pointer;
+}
+.form h1{
+    text-align: center;
 }
