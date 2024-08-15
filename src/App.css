@@ -11,7 +11,7 @@ body {
 
 .container {
 
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -56,12 +56,18 @@ p {
 .text {
     margin: 2px;
     padding: 5px;
-    font-size: larger;
+    font-size: x-large;
+    text-decoration: solid;
 }
 
+
 span{
-    color: rgb(13, 35, 66);
+    color: rgb(13, 126, 255);
     cursor: pointer;
+    
+}
+.span:hover{
+    color: red;
 }
 .form h1{
     text-align: center;
