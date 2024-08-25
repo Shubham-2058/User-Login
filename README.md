@@ -1,5 +1,4 @@
 # Simple React Login Form
-
 <hr>
 
 See live @ [pb-react-form.netlify.app](https://pb-react-form.netlify.app)
