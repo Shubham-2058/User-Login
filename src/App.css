@@ -67,8 +67,5 @@ span{
     
 }
 .span:hover{
-    color: red;
-}
-.form h1{
-    text-align: center;
+    color: rgb(59, 243, 22);
 }
